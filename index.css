@@ -1,0 +1,88 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(28, 28, 30);
+    color: white;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+.menu-bar {
+    display:flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(40,40,40);
+}
+.logo {
+    background-image: url("./assets/logo.png");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+
+.contact-info a {
+    text-decoration: none;
+    color: coral;
+}
+
+.contact-info a:hover {
+    color: rgb(172, 114, 93);
+}
+
+.support a {
+    text-decoration: none;
+    color: coral;
+}
+
+.support a:hover {
+    color: rgb(172, 114, 93);
+}
+
+.mission {
+    color: rgb(213, 115, 239);
+}
+
+.about {
+    color: rgb(94, 227, 253);
+}
+
+.user-pic {
+    background-image: url("./assets/profile_pic.jpeg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 10px; 
+}
+.features {
+    color: rgb(255, 159, 249);
+}
+
+.linkedin {
+ color: rgb(147, 183, 255);
+ text-decoration: none;
+}
+
+.linkedin:hover {
+    color: rgb(85, 106, 148);
+}
+
+.github{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.github:hover{
+    color: rgb(75, 150, 125);
+    text-decoration: none;
+}
